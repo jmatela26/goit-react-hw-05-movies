@@ -24,5 +24,10 @@
 .cast-name {
     font-size: 1.2em;
     margin-top: 10px;
-    color: #333;
+    color: #ffffff;
 }
+
+.cast-not-found {
+    color: #ffffff;
+}
+

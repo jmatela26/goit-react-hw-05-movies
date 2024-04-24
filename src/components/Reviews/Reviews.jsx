@@ -50,7 +50,7 @@ const Reviews = () => {
           );
         })
       ) : (
-        <li>There are no reviews so far ...</li>
+        <li className={styles['read-more-loader']}>There are no reviews so far ...</li>
       )}
     </ul>
   );

@@ -36,7 +36,7 @@ const Cast = () => {
           </li>
         ))
       ) : (
-        <li>Not found</li>
+        <li className={styles['cast-not-found']}>Not found</li>
       )}
     </ul>
   );
